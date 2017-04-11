@@ -1,0 +1,58 @@
+/* Przyk³ad programu do wydania reszty - iloœæ banknotów 20-, 10-, 5- i 1- dolarowych. */
+/* change.c */
+#include <stdio.h>
+main()
+{
+int amount,twenties, tens, fives, ones, r20, r10;
+printf("Wprowadz kwote do wydania: "); /* Wprowadzenie kwoty do wydania */
+scanf("%d", &amount);
+twenties= amount/20; /* banknoty 20-dolarowe */
+r20=amount % 20; /* r20 reszta pozosta³a po 20-ch*/
+tens= r20/10; /* iloœæ banknotów 10-dolarowych */
+r10=r20 % 10; /* r10 reprezentuje resztê po 10-ch */
+fives= r10 / 5; /* banknoty 5-dolarowe */
+ones = r10 % 5; /* reszta - dolarówki */
+putchar('\n');
+printf("By przekazac %d wydaj banknoty: \n", amount);
+printf("%d dwudziestki\n", twenties);
+printf("%d dziesiatki\n", tens);
+printf("%d piatki \n", fives);
+printf("%d pojedyncze (s)\n", ones);
+}
+-----------------------------------------------------------------------------
+/* intfloat.c */
+/* wyswietlanie liczb */
+#include <stdio.h>
+void main()
+{
+int t;
+float c, s, r;
+c=56.09;
+s=4.98;
+t=c+s; // calkowite
+r=c+s; // rzeczywiste
+printf ("Razem - (int): %d (float): %.2f",t, r);
+----------------------------------------------------------------------------
+/* Przyk³ad program z zastosowaniem operatorów unarnych */
+/********************************************************/
+/* Program p33.c */
+/* ( operatory unarne ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+main()
+{
+int i=5 ;
+printf("\n----------------");
+printf("\n i = %i ", i );
+printf("\n i = %i ", ++i );
+printf("\n i = %i ", i );
+printf("\n i = %i ", i++);
+printf("\n i = %i ", i );
+printf("\n i = %i ", --i );
+printf("\n i = %i ", i );
+printf("\n i = %i ", i--);
+printf("\n i = %i ", i );
+printf("\n i = %i ", -i );
+printf("\n----------------");
+}
+------------------------------------------
