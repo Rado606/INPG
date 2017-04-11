@@ -1,0 +1,43 @@
+/* Przyk³ad z walcem, z zastosowaniem pseudoinstrukcji #define */
+/*******************************************************/
+/* Program p8.c */
+/* Obliczanie objetosci walca ( #define ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+#define PI 3.1415926
+#define PROMIEN 3.3
+#define WYSOKOSC 44.4
+#define WYNIK printf("Objetosc walca = %f", objetosc)
+main()
+{
+ float promien, wysokosc, objetosc;
+promien = PROMIEN;
+ wysokosc = WYSOKOSC;
+ objetosc = PI * promien * promien * wysokosc;
+ WYNIK;
+}
+/********************************************************/
+------------------------------------------------------------------------------------
+********************************************************/
+/* Program p9.c */
+/* Obliczanie objetosci walca ( zmienne ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+#define PI 3.1415926
+#define PROMIEN 3.3
+#define WYNIK printf("Objetosc walca = %f", objetosc)
+main()
+{
+ float promien, wysokosc, objetosc;
+ int i;
+ promien = PROMIEN;
+ objetosc = PI * promien * promien * wysokosc; /* uwaga */
+ WYNIK;
+ i=40000; /* uwaga */
+ printf("\ni = %i ", i);
+}
+/* Objêtoœæ walca jest równa 0, bo nie zosta³a zainicjalizowana zmienna 'wysokosc'
+- przez domniemanie kompilator przyj¹³ 0. 
+Na wydruku i widaæ, ¿e nast¹pi³o przekroczenie dopuszczalnego zakresu zmiennej 'i' typu int.
+*/
+/********************************************************/
