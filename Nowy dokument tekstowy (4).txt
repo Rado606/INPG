@@ -1,0 +1,74 @@
+/* Wersja programu do wczytania 2 liczb a i b typu ca³kowitego:
+//Program kalk1a.c
+// Wczytuje 2 liczby ca³kowite I wyœwietla na ekranie
+*/ #include <stdio.h>
+#include <conio.h>
+int main ()
+{
+ int a,b; //deklaracja zmiennych a i b
+ clrscr();
+ printf("Podaj liczbe a: ");
+ scanf("%d",&a); // wczytanie liczby a
+ printf("Podaj liczbe b: ");
+ scanf("%d",&b); // wczytanie liczby b
+ printf("Wpisane liczby a i b : %d, %d.\n",a,b);
+ printf("\nNacisnij Enter ");
+ getch(); // czekanie na Enter
+ return 0 ;
+}
+-------------------------------------------------------------------------------------
+/* Program kalkulator, wykonuj¹cy podstawowe obliczenia matematyczne */
+/* Program kalk1.c */
+#include <stdio.h>
+#include <conio.h>
+int main() /* funkcja glowna */
+{
+int a,b; /* deklaracja zmiennych ca³kowitych a i b */
+int suma,roznica,iloczyn;
+float iloraz; /* deklaracja zmiennej rzeczywistej */
+clrscr(); /* kasowanie ekranu */
+printf("Prosty kalkulator\n");
+printf("\nPodaj liczbe a: ");
+scanf("%d",&a); /* wczytanie liczby a */
+printf("Podaj liczbe b: ");
+scanf("%d",&b); /* wczytanie liczby b */
+/* obliczenia */
+suma=a+b;
+roznica=a-b;
+iloczyn=a*b;
+iloraz=(float)a/(float)b; /* operator rzutowania w dzieleniu */
+/* Wydruk wynikow */
+printf("\nWyniki dzialan:\n");
+printf("\nSuma: %d ",suma);
+printf("\nRoznica: %d ",roznica);
+printf("\nIloczyn: %d ",iloczyn);
+printf("\nIloraz: %f ",iloraz);
+getch(); /* czeka na naciœniecie klawisza */
+return 0 ;
+}
+--------------------------------------------------------------------------------------
+/* Przyk³ad operacji na s³owach i ³añcuchach: */
+/* znaki1.c */
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+main (void)
+{
+char znak1,znak2,znak3; //deklaracja znaków
+char *slowo1; // *slowo2;
+char slowo2[20];
+clrscr(); // czyszczenie ekranu
+znak1='a';
+znak2=102; // znak w postaci kodu dziesiêtnego ASCII – litera f
+slowo1="Imie"; // wpisujemy w³asne imiê
+printf("Podaj znak3: "); scanf("%c",&znak3); // podajemy jakiœ znak
+printf("\nPodaj slowo2: "); scanf("%s",slowo2); // wpisujemy s³owo
+printf("\nZmienne zawieraja znaki: ");
+printf("znak1 (a), znak2 (102), znak3 (wprowadzony): %c %c %c
+",znak1,znak2,znak3);
+printf("\noraz slowa: ");
+printf("slowo1, slowo2: %s %s ",slowo1, slowo2);
+getch();
+return 0 ;
+}
+---
