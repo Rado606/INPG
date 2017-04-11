@@ -1,0 +1,63 @@
+---------------------------------------------------------------
+/* Przyk³ad programu z operatorami konwersji: */
+/********************************************************/
+/* Program p35.c */
+/* ( operator konwersji ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+#include <math.h>
+main()
+{
+ char c = 'k';
+ int i = 70;
+ float f = 345.6789;
+ printf("\n Wartosci poczatkowe: ");
+ printf("\n c = \'%c\'; i = %i; f = %8.4f;", c ,i, f);
+ printf("\n-------------------------------------");
+ printf("\n Konwersja Wynik ");
+ printf("\n-------------------------------------");
+ printf("\n (int) c %i ", (int) c );
+ printf("\n (float) c %f ", (float) c );
+ printf("\n (double) i %f ", (double) i );
+ printf("\n (char) i %c ", (char) i );
+ printf("\n (double) i+2000 %f ", (double) i+2000 );
+ printf("\n (int) f %i ", (int) f );
+ printf("\n sqrt((double) c) %f ", sqrt((double) c));
+ printf("\n-------------------------------------");
+}
+/********************************************************/
+----------------------------------------------------------------
+/* sizeof.c */
+include <stdio.h>
+int main()
+{
+printf("sizeof(short ) = %d\n", sizeof(short ));
+printf("sizeof(int ) = %d\n", sizeof(int ));
+printf("sizeof(long ) = %d\n", sizeof(long ));
+printf("sizeof(float ) = %d\n", sizeof(float ));
+printf("sizeof(double) = %d\n", sizeof(double));
+return 0;
+}
+---------------------------------------------------------------------------------
+/* Typowe zastosowanie - funkcja max */
+/ / Program operwar.cpp
+/* C++ - Operator warunkowy - funkacja max */
+#include <iostream.h>
+void main()
+{
+int max(int, int);
+int a, b, m;
+char c;
+cout << "Program wyznacza max 2 liczb\n";
+cout << "Podaj 2 liczby calkowite oddzielone spacja: ";
+cin >> a >> b;
+m=max(a,b);
+cout << "Max liczb " << a << " i " << b << " wynosi " << m;
+cout << "\nNacisnij cos";
+cin >> c;
+}
+int max(int i, int j)
+{
+return i > j? i: j;
+}
+==============================
