@@ -1,4 +1,4 @@
-#include <conio.h>
+Siema radek#include <conio.h>
 float PoleProstokata(float bok1, float bok2); /* zapowiedz funkcji */
 /* funkcja glowna */
 int main(void)
