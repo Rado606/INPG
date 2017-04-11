@@ -1,0 +1,57 @@
+/********************************************************/
+/* Program p14.c wydruk liczby w 3 systemach: 10, 8, 16 */
+/* ( printf /1/ ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+main()
+{
+int k = 21101; /* liczba dziesietna */
+printf("\nk(_10) = %i k(_8) = %o k(_16) = %X", k, k, k);
+}
+/********************************************************/
+---------------------------------------------------------------------------
+/********************************************************/
+/* Program p15.c */
+/* ( printf /2/ ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+main()
+{
+float a,b,c;
+ a=153.67789; b=2.33E-2; c = a * b;
+ printf(" %f razy %E wynosi: %f ", a,b,c);
+}
+/********************************************************/
+------------------------------------------------------------------------------
+/********************************************************/
+/* Program p17.c ( Turbo C 2.0 ) */
+/* ( printf /4/ ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+main() /* zagadnienie dokladnosci */
+{
+double a=153.67789;
+int k=22799;
+int m=-500;
+int *p; /* wskaznik */
+char c='M';
+char napis[]="Lepsze C od B lub P ";
+p=&k;
+printf("\n format %%d %d", k);
+printf("\n format %%i %i", m);
+printf("\n format %%u %u", k);
+printf("\n format %%o %o", k);
+printf("\n format %%x %x", k);
+printf("\n format %%X %X", k);
+printf("\n format %%f %f", a);
+printf("\n format %%e %e", a);
+printf("\n format %%E %E", a);
+printf("\n format %%g %g", a);
+printf("\n format %%G %G", a);
+printf("\n format %%c %c", c);
+printf("\n format %%s %s", napis);
+printf("\n format %%p %p", *p);
+printf("\n ------------------------");
+printf("\n "); printf(napis);
+}
+/********************************************************/
