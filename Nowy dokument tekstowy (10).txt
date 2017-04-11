@@ -1,0 +1,72 @@
+/* if1a.c – instrukcja if */
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+main (void)
+{
+float liczba1, x;
+clrscr();
+x=0;
+printf("Podaj liczbe dodatnia: \n");
+scanf("%f",&liczba1);
+if (liczba1 >=0)
+x=sqrt(liczba1);
+printf("Pierwiastek z %f = %f", liczba1, x);
+getch();
+return 0 ;
+}
+----------------------------------------------------------------------
+/* program if1.c */
+#include <stdio.h>
+#include <conio.h>
+main (void)
+{
+int liczba1,liczba2;
+clrscr();
+printf("Podaj pierwsz¹ liczbê: \n");
+scanf("%d",&liczba1);
+printf("Podaj drug¹ liczbê: \n");
+scanf("%d",&liczba2);
+if (liczba2==0)
+printf("Nie wolno dzieliæ przez 0!\n");
+else
+printf("Wynik dzielenia: %f\n", (float) liczba1/liczba2);
+getch();
+return 0 ;
+}
+---------------------------------------------------------------------
+// program if1.cpp
+#include <iostream.h>
+int Latka;
+int main() {
+cout << "Program dla doroslych\nIle ty masz lat?\n";
+cin >> Latka;
+if (Latka < 18) cout << "Spadaj, malolacie!\n";
+else cout << "Ty stary koniu! ;>\n";
+}
+-----------------------------------------------------------------
+/* rownkwad. c*/
+#include <stdio.h>
+#include <conio.h>
+main (void)
+{
+float A,B,C,delta;
+clrscr();
+printf("Podaj wspó³czynnik A: \n");
+scanf("%f",&A);
+printf("Podaj wspó³czynnik B: \n");
+scanf("%f",&B);
+printf("Podaj wspó³czynnik C: \n");
+scanf("%f",&C);
+delta=b*b-4*a*c;
+if (delta<0)
+printf("Nie istniej¹ pierwiaski rzeczywiste!\n");
+else
+if (delta==0)
+printf("Istnieje jeden pierwiastek rzeczywisty.\n");
+else
+printf("Istniej¹ dwa pierwiaski rzeczywiste.\n");
+getch();
+return 0 ;
+}
+--------
