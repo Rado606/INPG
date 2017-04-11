@@ -1,0 +1,46 @@
+/* zapis1.c - zapis liczb w roznych systemach */
+#include <stdio.h>
+void main(void)
+{
+float f = 0.521;
+int i = -123;
+unsigned int u = 24;
+char c = 'A';
+printf("Zmienna f = %f, a zmienna i jest rowna %d.\n", f, i);
+printf("Zmienna c = %c, a zmienna u jest rowna %u.\n", c, u);
+printf("Zmienna u w zapisie szesnastkowym jest rowna %x, \n", u);
+printf("natomiast w zapisie osemkowym jest rowna %o.", u);
+}
+------------------------------------------------------------------------------
+********************************************************/
+/* Program p21.c */
+/* Obliczanie objetosci walca ( wieksza dokladnosc ) */
+/*------------------------------------------------------*/
+#include <stdio.h>
+#define PI 3.1415926
+#define PROMIEN 3.3
+#define WYSOKOSC 44.4
+main()
+{
+ double promien, wysokosc, objetosc;
+ promien = PROMIEN;
+ wysokosc = WYSOKOSC;
+ objetosc = PI * promien * promien * wysokosc;
+ printf("\nObjetosc walca = %f", objetosc);
+ printf("\nObjetosc walca = %E", objetosc);
+ printf("\nObjetosc walca = %g", objetosc);
+ printf("\nObjetosc walca = %15.10f", objetosc);
+ printf("\nObjetosc walca = %25.20f", objetosc);
+}
+---------------------------------------------------------------------------
+/* getchar1.c */
+#include <stdio.h>
+/* przepisz wejscie na wyjœcie, wersja 1 */
+main()
+{
+int c;
+c = getchar(); /* przeczytaj znak */
+while (c != EOF) /* dopóki znak nie jest znakiem konca pliku (Ctrl Z) */
+{
+ putchar(c); /* wypisz przeczytany znak */
+ c=getchar(); /* przeczytaj nastepny znak */
