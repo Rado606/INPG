@@ -1,0 +1,48 @@
+/* Funkcja - definicja */
+float PoleProstokata(float bok1, float bok2)
+{
+/* w tym miejscu bok1 jest równy a,
+ natomiast bok2 jest równy b */
+float wynik;
+wynik = bok1 * bok2;
+return wynik;
+}
+-----------------------------------------------------------------------------------------
+/ Program czas.cpp w jezyku C++ - wyœwietlenie czasu – komentarz w C++
+#include <iostream.h>
+#include <time.h>
+main()
+{
+ int a;
+ time_t czas;
+ do {
+ cout << "1 - Wyswietl aktualny czas" << endl;
+ cout << "2 - Zakoncz program" << endl;
+ cout << "Twoj wybor?";
+ cin >> a;
+ if (a == 1)
+ {
+ time(&czas);
+ cout << ctime(&czas);
+ }
+ }while (a != 2);
+ cout << "Do zobaczenia" << endl;
+}
+-----------------------------------------------------------------------------------------
+/********************************************************/
+/* Program objwalc.c */
+/* Obliczanie objetosci walca (rozroznianie nazwy /1)*/
+/*------------------------------------------------------*/
+#include <stdio.h>
+main()
+{
+ float promien, wysokosc, objetosc;
+ float PROMIEN, WYSOKOSC, OBJETOSC;
+ promien = 3.3; PROMIEN = 10.;
+ wysokosc = 44.4; WYSOKOSC = 20.;
+ objetosc = 3.1415926 * promien * promien * wysokosc;
+ printf("\nObjetosc walca = %f", objetosc);
+ OBJETOSC = 3.1415926 * PROMIEN * PROMIEN * WYSOKOSC;
+ printf("\nOBJETOSC WALCA = %f", OBJETOSC);
+}
+-------------------------------------------
