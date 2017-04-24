@@ -1,6 +1,6 @@
 /* Przyk³ad z walcem, z zastosowaniem pseudoinstrukcji #define */
 /*******************************************************/
-/* Program p8.c */
+/* Program p8.c */ //branch0
 /* Obliczanie objetosci walca ( #define ) */
 /*------------------------------------------------------*/
 #include <stdio.h>
