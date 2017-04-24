@@ -2,7 +2,7 @@
 /* Program p14.c wydruk liczby w 3 systemach: 10, 8, 16 */
 /* ( printf /1/ ) */
 /*------------------------------------------------------*/
-#include <stdio.h>
+#include <stdio.h> //branch0
 main() // zmiana
 {
 int k = 21101; /* liczba dziesietna */
