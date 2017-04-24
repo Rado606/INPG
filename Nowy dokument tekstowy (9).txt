@@ -2,7 +2,7 @@
 /* Przyk³ad programu z operatorami konwersji: */
 /********************************************************/
 /* Program p35.c */
-/* ( operator konwersji ) */
+/* ( operator konwersji ) */ //zmiana master
 /**/
 #include <stdio.h>
 #include <math.h>
