@@ -1,5 +1,5 @@
 /* Funkcja - definicja */
-float PoleProstokata(float bok1, float bok2) /zmiana kodu
+float PoleProstokata(float bok1, float bok2) /zmiana kodu //branch0
 {
 /* w tym miejscu bok1 jest równy a,
  natomiast bok2 jest równy b */
