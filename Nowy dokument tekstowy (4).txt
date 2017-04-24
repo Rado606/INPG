@@ -1,5 +1,5 @@
 /* Wersja programu do wczytania 2 liczb a i b typu ca³kowitego:
-//Program kalk1a.c
+//Program kalk1a.c //branch0
 // Wczytuje 2 liczby ca³kowite I wyœwietla na ekranie
 */ #include <stdio.h>
 #include <conio.h> // zmiana
