@@ -1,7 +1,7 @@
 /* Program, który podaje kod wciœniêtego przez nas klawisza: */
 #include <stdio.h>
 #include <conio.h>
-#include <string.h>
+#include <string.h> // com
 main (void)
 {
 char znak;
