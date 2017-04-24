@@ -3,7 +3,7 @@
 #include <stdio.h>
 main()
 {
-int amount,twenties, tens, fives, ones, r20, r10;
+int amount,twenties, tens, fives, ones, r20, r10; //zmiana
 printf("Wprowadz kwote do wydania: "); /* Wprowadzenie kwoty do wydania */
 scanf("%d", &amount);
 twenties= amount/20; /* banknoty 20-dolarowe */
