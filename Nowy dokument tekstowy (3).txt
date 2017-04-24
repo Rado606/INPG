@@ -4,7 +4,7 @@
 /* Obliczanie objetosci walca ( #define ) */
 /*------------------------------------------------------*/
 #include <stdio.h>
-#define PI 3.1415926
+#define PI 3.141592643
 #define PROMIEN 3.3
 #define WYSOKOSC 44.4
 #define WYNIK printf("Objetosc walca = %f", objetosc)
