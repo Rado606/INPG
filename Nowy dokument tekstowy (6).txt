@@ -3,7 +3,7 @@
 /* ( printf /1/ ) */
 /*------------------------------------------------------*/
 #include <stdio.h>
-main()
+main() // zmiana
 {
 int k = 21101; /* liczba dziesietna */
 printf("\nk(_10) = %i k(_8) = %o k(_16) = %X", k, k, k);
