@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-#include <conio.h>
+#include <conio.h> //branch0
 float PoleProstokata(float bok1, float bok2); /* zapowiedz funkcji */ /blad/
 =======
 Siema radek#include <conio.h>
