@@ -10,7 +10,7 @@
 #define WYNIK printf("Objetosc walca = %f", objetosc)
 main()
 {
- float promien, wysokosc, objetosc;
+ float promien, wysokosc, objetosc; //zmiana master
 promien = PROMIEN;
  wysokosc = WYSOKOSC;
  objetosc = PI * promien * promien * wysokosc;
