@@ -1,5 +1,5 @@
 /* zapis1.c - zapis liczb w roznych systemach */
-#include <stdio.h>
+#include <stdio.h> //branch0
 void main(void)
 {
 float f = 0.52123;
