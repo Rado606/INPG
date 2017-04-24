@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
-main (void) // com
+main (void) // com //zmiana master
 {
 float liczba1, x;
 clrscr();
