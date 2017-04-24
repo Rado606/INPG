@@ -2,7 +2,7 @@
 //Program kalk1a.c
 // Wczytuje 2 liczby ca³kowite I wyœwietla na ekranie
 */ #include <stdio.h>
-#include <conio.h>
+#include <conio.h> // zmiana
 int main ()
 {
  int a,b; //deklaracja zmiennych a i b
