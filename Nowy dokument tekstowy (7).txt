@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main(void)
 {
-float f = 0.521;
+float f = 0.52123;
 int i = -123;
 unsigned int u = 24;
 char c = 'A';
