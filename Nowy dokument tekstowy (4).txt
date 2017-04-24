@@ -8,7 +8,7 @@ int main ()
  int a,b; //deklaracja zmiennych a i b
  clrscr();
  printf("Podaj liczbe a: ");
- scanf("%d",&a); // wczytanie liczby a
+ scanf("%d",&a); // wczytanie liczby a //zmiana master
  printf("Podaj liczbe b: ");
  scanf("%d",&b); // wczytanie liczby b
  printf("Wpisane liczby a i b : %d, %d.\n",a,b);
