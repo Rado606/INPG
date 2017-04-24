@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-#include <conio.h>
+#include <conio.h> 
 float PoleProstokata(float bok1, float bok2); /* zapowiedz funkcji */ /blad/
 =======
 Siema radek#include <conio.h>
@@ -8,7 +8,7 @@ float PoleProstokata(float bok1, float bok2); /* zapowiedz funkcji */
 /* funkcja glowna */
 int main(void)
 {
-float a, b, p;
+float a, b, p; //zmiana master
 puts("Obliczenie pola prostokata o bokach a i b ");
 printf("Podaj a i b oddzielone spacja: ");
 scanf("%f %f",&a, &b);
