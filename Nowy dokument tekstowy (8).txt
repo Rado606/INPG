@@ -1,6 +1,6 @@
 /* Przyk³ad programu do wydania reszty - iloœæ banknotów 20-, 10-, 5- i 1- dolarowych. */
 /* change.c */
-#include <stdio.h>
+#include <stdio.h> //zmiana master
 main()
 {
 int amount,twenties, tens, fives, ones, r20, r10; //zmiana
