@@ -1,5 +1,5 @@
 /* Program, który podaje kod wciœniêtego przez nas klawisza: */
-#include <stdio.h>
+#include <stdio.h> //branch0
 #include <conio.h>
 #include <string.h> // com
 main (void)
